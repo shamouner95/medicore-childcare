@@ -383,7 +383,7 @@ class GeminiAIService {
 
   final model = GenerativeModel(
     model: 'gemini-2.5-flash',
-    apiKey: 'AIzaSyBDmkGtWvygE7BwzRgQr299a4FGOIZEeGw',
+    apiKey: '',
   );
 
   Future<T> _withTimeout<T>(Future<T> future) {
